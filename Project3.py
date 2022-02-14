@@ -15,7 +15,7 @@ jul = 0; aug = 0; sep = 0; oct95 = 0;
 
 with open("./http_access_log.txt") as s:				
 		           for line in s:								
-			                 if re.search('(/Apr/)', line):
+			                 if re.search('(11/Apr/)', line):
 				                       apr+=1
 			                 if re.search('(/May/)', line):
 				                       may+=1
